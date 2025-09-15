@@ -58,6 +58,6 @@ io.on("connection", (socket) => {
     console.log("message sended to " + data.reciverPhone);
   });
 });
-server.listen(3000, () => {
+server.listen(5000, () => {
   console.log("server is running");
 });
